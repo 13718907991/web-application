@@ -16,7 +16,7 @@ public class DeptController {
 
     @GetMapping
     public Result allDepts() {
-        log.info("查询部门列表");
+        log.info("查询all部门列表");
         return Result.success(deptService.alldepts());
     }
 
