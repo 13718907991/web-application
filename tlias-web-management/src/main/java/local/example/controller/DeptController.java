@@ -18,6 +18,7 @@ public class DeptController {
     public Result allDepts() {
         log.info("部门信息all");
         log.info("部门信息");
+        log.info("部门信息!!");
         return Result.success(deptService.alldepts());
     }
 
