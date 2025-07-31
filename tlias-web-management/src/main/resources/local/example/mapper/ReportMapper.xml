@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="local.example.mapper.ReportMapper">
+    <select id="genderList" resultType="java.util.Map">
+        select
+        if(gender = 1, '男', '女') as gender,
+        count(*) as total
+        from emp
+        group by gender
+        order by total
+    </select>
+
+    <select id="jobList" resultType="java.util.Map">
+        select (case
+        when job = 1 then '教研主管'
+        when job = 2 then '学工主管'
+        when job = 3 then '班主任'
+        when job = 4 then '咨询师'
+        when job = 5 then '讲师' end) as jobName,
+        count(*) as total
+        from emp
+        group by job
+        order by total
+    </select>
+    <select id="degreeList" resultType="java.util.Map">
+        select (case
+        when degree = 1 then '初中'
+        when degree = 2 then '高中'
+        when degree = 3 then '大专'
+        when degree = 4 then '本科'
+        when degree = 5 then '硕士'
+        end ) as name,
+        count(*) as value from student
+        group by degree order by value
+    </select>
+    <select id="studentCountList" resultType="java.util.Map">
+        select ( case
+        when clazz.id = 1 then 'Java'
+        when clazz.id = 2 then 'SringBoot'
+        when clazz.id = 3 then 'Python'
+        when clazz.id = 4 then 'Swift'
+        end ) as name,
+        count(*) as value
+        from student, clazz
+        where student.clazz_id = clazz.id
+        group by clazz.id
+    </select>
+</mapper>

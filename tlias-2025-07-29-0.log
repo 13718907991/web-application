@@ -1,0 +1,732 @@
+2025-07-29 00:45:56.528 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 00:45:58.581 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 00:45:58.590 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 00:45:58.594 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 09:50:41.317 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 84906 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 09:50:41.322 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 09:50:43.007 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 09:50:43.019 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 09:50:43.020 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 09:50:43.021 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 09:50:43.057 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 09:50:43.057 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1702 ms
+2025-07-29 09:50:43.147 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 84914 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 09:50:43.148 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 09:50:43.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 09:50:43.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 09:50:43.771 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.808 seconds (process running for 3.796)
+2025-07-29 09:50:43.924 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 09:50:43.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 09:50:43.930 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 09:50:43.930 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 09:50:43.951 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 09:50:43.951 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 774 ms
+2025-07-29 09:50:44.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 09:50:44.738 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-29 09:50:44.857 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-29 09:50:44.879 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-29 09:50:46.530 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 09:50:46.531 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 09:50:46.535 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-07-29 09:50:46.573 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:50:46.601 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:50:46.607 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 09:50:47.063 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52bf3922
+2025-07-29 09:50:47.067 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 09:51:26.647 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:51:26.678 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:51:28.158 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:51:28.161 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:51:42.630 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:51:42.633 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:52:13.218 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:52:13.220 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:52:42.309 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 09:52:42.319 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 09:58:29.784 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:06:30.734 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:06:30.751 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:07:18.694 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:07:18.704 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:09:40.011 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚, password=null, name=闭楚楚, gender=2, phone=13718907999, job=6, salary=29000, image=, entryDate=2025-07-01, deptId=11, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-01, end=2025-08-20, company=OMG, job=前端), EmpExpr(id=null, empId=null, begin=2025-07-31, end=2025-08-05, company=OMG, job=后端), EmpExpr(id=null, empId=null, begin=2025-07-09, end=2025-08-05, company=OMG, job=全栈)])
+2025-07-29 10:09:40.155 [http-nio-8080-exec-8] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Cannot invoke "java.lang.Integer.intValue()" because the return value of "local.example.utils.CurrentHolder.getCurrentId()" is null
+2025-07-29 10:10:07.599 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 10:10:09.638 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 10:10:09.644 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 10:10:09.648 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 10:10:11.585 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 85412 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 10:10:11.587 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 10:10:12.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 10:10:12.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:10:12.073 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 10:10:12.073 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 10:10:12.091 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 10:10:12.091 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 483 ms
+2025-07-29 10:10:12.432 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:10:12.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 10:10:12.445 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.016 seconds (process running for 1.528)
+2025-07-29 10:10:16.099 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 10:10:16.100 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 10:10:16.101 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 10:10:16.151 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚, password=null, name=闭楚楚, gender=2, phone=13718907999, job=6, salary=29000, image=, entryDate=2025-07-01, deptId=11, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-01, end=2025-08-20, company=OMG, job=前端), EmpExpr(id=null, empId=null, begin=2025-07-31, end=2025-08-05, company=OMG, job=后端), EmpExpr(id=null, empId=null, begin=2025-07-09, end=2025-08-05, company=OMG, job=全栈)])
+2025-07-29 10:10:16.155 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 10:10:16.314 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@748b1153
+2025-07-29 10:10:16.315 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 10:10:16.441 [http-nio-8080-exec-1] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '闭楚楚闭楚楚' for key 'emp.username'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '闭楚楚闭楚楚' for key 'emp.username'
+; Duplicate entry '闭楚楚闭楚楚' for key 'emp.username'
+2025-07-29 10:10:27.890 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚闭楚楚, password=null, name=闭楚楚, gender=2, phone=13718907999, job=6, salary=29000, image=, entryDate=2025-07-01, deptId=11, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-01, end=2025-08-20, company=OMG, job=前端), EmpExpr(id=null, empId=null, begin=2025-07-31, end=2025-08-05, company=OMG, job=后端), EmpExpr(id=null, empId=null, begin=2025-07-09, end=2025-08-05, company=OMG, job=全栈)])
+2025-07-29 10:10:27.910 [http-nio-8080-exec-2] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '13718907999' for key 'emp.phone'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '13718907999' for key 'emp.phone'
+; Duplicate entry '13718907999' for key 'emp.phone'
+2025-07-29 10:10:39.543 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚闭楚楚, password=null, name=闭楚楚, gender=2, phone=13718907998, job=6, salary=29000, image=, entryDate=2025-07-01, deptId=11, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-01, end=2025-08-20, company=OMG, job=前端), EmpExpr(id=null, empId=null, begin=2025-07-31, end=2025-08-05, company=OMG, job=后端), EmpExpr(id=null, empId=null, begin=2025-07-09, end=2025-08-05, company=OMG, job=全栈)])
+2025-07-29 10:10:39.590 [http-nio-8080-exec-3] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Cannot invoke "java.lang.Integer.intValue()" because the return value of "local.example.utils.CurrentHolder.getCurrentId()" is null
+2025-07-29 10:11:00.429 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:11:00.452 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:13:33.333 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 10:13:35.350 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 10:13:35.360 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 10:13:35.369 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 10:13:37.362 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 85479 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 10:13:37.363 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 10:13:37.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 10:13:37.816 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:13:37.817 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 10:13:37.817 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 10:13:37.833 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 10:13:37.833 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 453 ms
+2025-07-29 10:13:38.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:13:38.160 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 10:13:38.165 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.993 seconds (process running for 1.38)
+2025-07-29 10:14:30.186 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 10:14:30.188 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 10:14:30.200 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-07-29 10:14:30.211 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:11.500 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:11.500 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:37.582 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:37.590 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:41.931 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:41.931 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:54.287 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:54.297 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:58.023 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:58.023 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:59.868 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:15:59.868 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:16:08.563 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:16:08.563 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-29 10:17:32.102 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 10:17:34.126 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 10:17:36.329 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 85615 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 10:17:36.330 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 10:17:36.775 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 10:17:36.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:17:36.780 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 10:17:36.780 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 10:17:36.795 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 10:17:36.795 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 448 ms
+2025-07-29 10:17:37.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:17:37.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 10:17:37.113 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.944 seconds (process running for 1.315)
+2025-07-29 10:17:41.690 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 10:17:41.691 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 10:17:41.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 10:17:41.705 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:17:41.712 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:17:41.715 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 10:17:41.916 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25e91c68
+2025-07-29 10:17:41.917 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 10:18:17.989 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=18378587196, password=null, name=闭楚楚, gender=2, phone=11111111111, job=6, salary=898989, image=, entryDate=2025-07-08, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-19, end=2025-08-13, company=OMG, job=学工主管)])
+2025-07-29 10:18:18.036 [http-nio-8080-exec-3] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Cannot invoke "java.lang.Integer.intValue()" because the return value of "local.example.utils.CurrentHolder.getCurrentId()" is null
+2025-07-29 10:27:00.695 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 10:27:02.740 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 10:27:02.756 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 10:27:02.771 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 10:27:04.847 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 85826 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 10:27:04.848 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 10:27:05.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 10:27:05.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:27:05.287 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 10:27:05.287 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 10:27:05.306 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 10:27:05.306 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 441 ms
+2025-07-29 10:27:05.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:27:05.635 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 10:27:05.638 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.949 seconds (process running for 1.379)
+2025-07-29 10:27:52.368 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 10:27:52.368 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 10:27:52.381 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-07-29 10:27:52.426 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚OMG, password=null, name=闭楚楚哇, gender=2, phone=18378587199, job=3, salary=99999, image=, entryDate=2025-06-30, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-09, end=2025-08-21, company=OMG, job=学工主管)])
+2025-07-29 10:27:52.432 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 10:27:52.599 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20f9e3bd
+2025-07-29 10:27:52.600 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 10:30:22.794 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:30:22.846 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:30:24.949 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=4, pageSize=10
+2025-07-29 10:30:26.848 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=3, pageSize=10
+2025-07-29 10:31:48.300 [http-nio-8080-exec-6] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：No static resource upload.
+2025-07-29 10:31:50.801 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=1, password=null, name=1, gender=2, phone=1111111111, job=6, salary=11111, image=null, entryDate=2025-07-16, deptId=14, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 10:32:31.493 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:32:31.503 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:39:37.591 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:39:37.608 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:40:28.880 [http-nio-8080-exec-2] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：No static resource upload.
+2025-07-29 10:40:53.310 [http-nio-8080-exec-3] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：No static resource upload.
+2025-07-29 10:41:34.003 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚02, password=null, name=闭楚楚02, gender=2, phone=12345678910, job=1, salary=99999, image=null, entryDate=2025-06-30, deptId=1, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-18, end=2025-08-11, company=OMG, job=班主任)])
+2025-07-29 10:45:24.701 [http-nio-8080-exec-5] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：No static resource upload.
+2025-07-29 10:45:35.681 [http-nio-8080-exec-6] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：No static resource upload.
+2025-07-29 10:48:05.403 [http-nio-8080-exec-7] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Required part 'image' is not present.
+2025-07-29 10:48:26.009 [http-nio-8080-exec-9] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Required part 'image' is not present.
+2025-07-29 10:48:30.215 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:48:30.228 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:48:33.912 [http-nio-8080-exec-1] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Required part 'image' is not present.
+2025-07-29 10:52:03.554 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:52:03.649 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:52:11.538 [http-nio-8080-exec-4] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@666af8cd
+2025-07-29 10:54:08.203 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:08.245 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:54:12.513 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:12.515 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:54:26.103 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:26.110 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:54:28.737 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:28.740 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:54:31.881 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:31.895 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:54:53.129 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 10:54:53.137 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 10:55:14.598 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=bcc, password=null, name=bccc, gender=2, phone=12345678910, job=2, salary=11919, image=, entryDate=2025-07-07, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 10:55:14.930 [http-nio-8080-exec-9] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12345678910' for key 'emp.phone'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12345678910' for key 'emp.phone'
+; Duplicate entry '12345678910' for key 'emp.phone'
+2025-07-29 10:55:22.624 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s833ms), soft-evicting connections from pool.
+2025-07-29 10:55:31.204 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=bcc, password=null, name=bccc, gender=2, phone=12345678910, job=2, salary=11919, image=, entryDate=2025-07-07, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 10:55:31.221 [http-nio-8080-exec-10] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12345678910' for key 'emp.phone'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12345678910' for key 'emp.phone'
+; Duplicate entry '12345678910' for key 'emp.phone'
+2025-07-29 10:55:45.616 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=bcc, password=null, name=bccc, gender=2, phone=12345678911, job=2, salary=11919, image=, entryDate=2025-07-07, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 10:58:04.229 [http-nio-8080-exec-4] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Read timed out
+[ErrorCode]: SocketTimeout
+[RequestId]: Unknown
+2025-07-29 10:59:43.759 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 10:59:45.971 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 10:59:46.070 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 10:59:46.116 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 10:59:53.269 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 86394 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 10:59:53.273 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 10:59:53.881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 10:59:53.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:59:53.887 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 10:59:53.887 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 10:59:53.905 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 10:59:53.906 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 592 ms
+2025-07-29 10:59:54.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 10:59:54.335 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 10:59:54.341 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.295 seconds (process running for 2.296)
+2025-07-29 11:00:08.923 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 11:00:08.924 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 11:00:08.925 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 11:00:08.975 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=fdljaadfa, password=null, name=asdfadf, gender=2, phone=123, job=2, salary=123231, image=, entryDate=2025-07-01, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:00:08.981 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 11:00:09.228 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78ffd8f2
+2025-07-29 11:00:09.228 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 11:00:48.976 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 11:00:50.998 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 11:00:51.003 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 11:00:51.007 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 11:01:22.349 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 86457 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 11:01:22.350 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 11:01:22.887 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 11:01:22.892 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:01:22.893 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 11:01:22.893 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 11:01:22.910 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 11:01:22.910 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 546 ms
+2025-07-29 11:01:23.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:01:23.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 11:01:23.227 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.048 seconds (process running for 1.632)
+2025-07-29 11:01:40.403 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 11:01:40.403 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 11:01:40.404 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 11:01:40.450 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=daf, password=null, name=dfa, gender=2, phone=123123, job=2, salary=1123, image=, entryDate=2025-07-01, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:01:40.456 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 11:01:40.673 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23e888d
+2025-07-29 11:01:40.678 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 11:02:10.937 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 11:02:12.948 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 11:02:12.966 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 11:02:12.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 11:02:14.701 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 86465 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 11:02:14.701 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 11:02:15.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 11:02:15.145 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:02:15.146 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 11:02:15.146 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 11:02:15.161 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 11:02:15.161 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 441 ms
+2025-07-29 11:02:15.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:02:15.471 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 11:02:15.475 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.939 seconds (process running for 1.246)
+2025-07-29 11:02:29.133 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 11:02:29.134 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 11:02:29.135 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 11:02:29.178 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=1, password=null, name=11, gender=1, phone=1, job=2, salary=1, image=, entryDate=2025-07-01, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:02:29.183 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 11:02:29.303 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e3d4527
+2025-07-29 11:02:29.304 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 11:02:29.446 [http-nio-8080-exec-1] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'emp.username'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'emp.username'
+; Duplicate entry '1' for key 'emp.username'
+2025-07-29 11:02:37.307 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=11, password=null, name=111, gender=1, phone=1, job=2, salary=1, image=, entryDate=2025-07-01, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:04:06.659 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:04:06.689 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:04:10.328 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:04:10.333 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:04:11.742 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:04:11.743 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:04:15.129 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:04:15.132 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:04:29.180 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=23, password=null, name=23, gender=2, phone=23, job=2, salary=23, image=, entryDate=2025-07-01, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:04:44.622 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=23, password=null, name=23, gender=2, phone=23, job=2, salary=23, image=, entryDate=2025-07-01, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:04:44.658 [http-nio-8080-exec-2] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+; Duplicate entry '23' for key 'emp.username'
+2025-07-29 11:04:45.884 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=23, password=null, name=23, gender=2, phone=23, job=2, salary=23, image=, entryDate=2025-07-01, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:04:45.897 [http-nio-8080-exec-3] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+; Duplicate entry '23' for key 'emp.username'
+2025-07-29 11:04:46.522 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=23, password=null, name=23, gender=2, phone=23, job=2, salary=23, image=, entryDate=2025-07-01, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-29 11:04:46.537 [http-nio-8080-exec-4] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'emp.username'
+; Duplicate entry '23' for key 'emp.username'
+2025-07-29 11:05:12.558 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:05:12.560 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:06:25.408 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:06:25.431 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:06:28.521 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:06:28.525 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:06:34.777 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:06:34.780 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:07:06.177 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚03, password=null, name=闭楚楚03, gender=2, phone=18378587190, job=4, salary=199999, image=, entryDate=2025-07-01, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-26, end=2025-08-20, company=OMG, job=教研主管)])
+2025-07-29 11:07:14.779 [http-nio-8080-exec-4] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@218ee39
+2025-07-29 11:07:29.570 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 11:07:31.616 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 11:07:31.629 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 11:07:31.636 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 11:07:34.086 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 86599 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 11:07:34.087 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 11:07:34.923 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 11:07:34.928 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:07:34.929 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 11:07:34.929 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 11:07:34.945 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 11:07:34.945 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 834 ms
+2025-07-29 11:07:35.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 11:07:35.361 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 11:07:35.365 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.502 seconds (process running for 2.035)
+2025-07-29 11:10:27.158 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 11:10:27.165 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 11:10:27.196 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 31 ms
+2025-07-29 11:10:27.318 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:10:27.352 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:10:27.376 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 11:10:27.685 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76d02153
+2025-07-29 11:10:27.686 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 11:10:30.274 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:10:30.277 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:11:02.819 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:11:02.817 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:11:31.562 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:11:31.569 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:12:33.785 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:12:33.799 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:12:42.161 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:12:42.164 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:13:55.857 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:13:55.932 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:13:56.284 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:13:56.284 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:13:58.013 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:13:58.020 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:13:59.835 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:13:59.847 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:16:15.769 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚04, password=null, name=闭楚楚04, gender=2, phone=19892839488, job=2, salary=99999, image=, entryDate=2025-07-07, deptId=11, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-17, end=2025-08-16, company=OMG, job=OMG)])
+2025-07-29 11:16:21.981 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:16:21.983 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:19:16.623 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:19:16.657 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:19:26.664 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:19:26.669 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:21:25.990 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 11:21:26.006 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:22:44.787 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚同学, password=null, name=闭楚楚5号, gender=2, phone=18901234567, job=2, salary=9999, image=, entryDate=2025-07-08, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-17, end=2025-08-12, company=OMG, job=OMG)])
+2025-07-29 11:22:49.125 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 11:22:51.321 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=5, pageSize=10
+2025-07-29 11:22:53.071 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 12:11:58.108 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s621ms), soft-evicting connections from pool.
+2025-07-29 14:58:00.034 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s822ms), soft-evicting connections from pool.
+2025-07-29 15:35:03.027 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:03.046 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:35:34.099 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:35:34.104 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:37.818 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:37.820 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:35:48.579 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:48.581 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:35:51.188 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:51.191 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:35:52.653 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:35:52.656 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:09.415 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:09.419 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:12.238 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:12.241 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:15.412 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:15.414 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:17.218 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:17.227 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:22.561 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:22.564 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:24.973 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:24.975 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:35.945 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:35.947 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:36:54.395 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:36:54.397 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:09.356 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:09.358 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:11.334 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:11.335 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:18.426 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:18.429 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:24.349 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:24.364 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:26.952 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:26.954 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:29.694 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:29.696 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:38:31.650 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:38:31.653 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:06.897 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:06.900 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:13.391 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:13.395 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:14.363 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:14.366 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:30.503 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:30.507 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:34.342 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:34.344 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:46.638 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:46.651 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:47.896 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:47.899 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:50.782 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:50.788 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:52.568 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:52.569 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:54.593 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:54.598 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:39:57.467 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:39:57.470 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:40:02.552 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:40:02.561 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:40:11.365 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:40:11.367 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:42:07.315 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:42:07.318 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:42:24.206 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:42:24.209 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:42:30.509 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:42:30.512 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:43:53.432 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:43:53.456 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:01.409 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:01.412 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:07.192 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:07.194 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:09.577 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:09.583 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:15.576 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:15.578 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:17.187 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:17.190 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:20.434 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:20.436 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:44:51.082 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:44:51.094 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:45:56.971 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:45:56.972 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:46:18.599 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:46:18.602 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:46:20.849 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:46:20.853 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:46:26.440 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:46:26.451 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:46:30.924 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 15:46:55.256 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-修改员工信息, id=1
+2025-07-29 15:47:02.299 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 15:48:37.212 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 15:48:43.002 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-查询单个员工信息, id=4
+2025-07-29 15:48:46.038 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=5, pageSize=10
+2025-07-29 15:48:47.408 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-查询单个员工信息, id=65
+2025-07-29 15:49:05.048 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:49:29.869 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-查询单个员工信息, id=2
+2025-07-29 15:52:51.806 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 15:56:51.594 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:56:51.626 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:56:52.414 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:56:52.417 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:56:57.755 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:56:57.762 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:56:59.473 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:56:59.474 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:57:11.883 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:57:11.885 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:57:15.092 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:57:15.101 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:58:31.879 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:58:31.893 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:58:34.518 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:58:34.520 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:58:35.501 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:58:35.503 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:58:36.778 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:58:36.779 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:58:40.676 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 15:59:02.498 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 15:59:02.513 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 15:59:10.026 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 16:12:47.165 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 16:12:49.193 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 16:12:49.206 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 16:12:49.212 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 16:12:52.119 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 92688 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 16:12:52.122 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 16:12:52.598 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 16:12:52.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 16:12:52.604 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 16:12:52.604 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 16:12:52.622 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 16:12:52.622 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 481 ms
+2025-07-29 16:12:52.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 16:12:52.999 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 16:12:53.003 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.06 seconds (process running for 1.476)
+2025-07-29 16:13:58.504 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 16:13:58.505 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 16:13:58.507 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-07-29 16:13:58.527 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-查询单个员工信息, id=5
+2025-07-29 16:13:58.538 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 16:13:58.680 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18f500f2
+2025-07-29 16:13:58.680 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 16:14:06.188 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-修改员工信息, id=5
+2025-07-29 16:19:09.692 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:09.795 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:19:11.298 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:11.301 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:19:20.826 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:20.833 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:19:34.384 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:34.394 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:19:38.123 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:38.134 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:19:41.086 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:19:41.089 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:20:33.330 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:20:33.341 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 16:20:35.523 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-查询单个员工信息, id=1
+2025-07-29 16:20:44.245 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-查询单个员工信息, id=3
+2025-07-29 16:21:37.551 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-修改员工信息, id=3
+2025-07-29 16:21:44.063 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-查询单个员工信息, id=3
+2025-07-29 16:21:48.448 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-修改员工信息, id=3
+2025-07-29 16:21:51.642 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-查询单个员工信息, id=3
+2025-07-29 16:29:59.268 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 16:29:59.307 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:49:29.316 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:49:29.353 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:49:35.813 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:49:35.815 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:49:38.450 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:49:38.460 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:49:49.933 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:49:49.936 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:49:55.480 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:49:55.482 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:50:00.789 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:50:00.792 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:50:06.957 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:50:06.959 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:50:09.963 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:50:09.976 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:50:15.818 [http-nio-8080-exec-1] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Request method 'DELETE' is not supported
+2025-07-29 17:55:08.000 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:55:08.049 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:55:16.893 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:55:16.896 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:57:23.493 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-29 17:57:25.534 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-29 17:57:25.553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-29 17:57:25.563 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-29 17:57:27.820 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 94842 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-29 17:57:27.822 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-29 17:57:28.267 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-29 17:57:28.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-29 17:57:28.273 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-29 17:57:28.273 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-29 17:57:28.289 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-29 17:57:28.289 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 450 ms
+2025-07-29 17:57:28.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-29 17:57:28.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-29 17:57:28.615 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.972 seconds (process running for 1.324)
+2025-07-29 17:58:18.414 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-29 17:58:18.415 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-29 17:58:18.416 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-29 17:58:18.438 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:58:18.446 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 17:58:18.451 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-29 17:58:18.627 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cbea51e
+2025-07-29 17:58:18.628 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-29 17:58:57.482 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 17:58:57.488 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 18:01:16.926 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 18:01:16.943 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 18:01:23.965 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 18:01:23.968 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 18:01:30.311 [http-nio-8080-exec-9] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Request method 'DELETE' is not supported
+2025-07-29 18:03:44.642 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 18:03:44.653 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 18:03:50.044 [http-nio-8080-exec-2] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Request method 'DELETE' is not supported
+2025-07-29 18:03:55.988 [http-nio-8080-exec-4] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：Request method 'DELETE' is not supported
+2025-07-29 20:47:46.939 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:47:47.034 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:47:47.173 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:47:47.174 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:47:57.400 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:47:57.403 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:48:00.323 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:48:00.333 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:48:00.444 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:48:00.444 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:48:05.696 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:48:05.701 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:48:09.426 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-删除员工信息, ids=[4]
+2025-07-29 20:48:09.477 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:48:31.734 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-删除员工信息, ids=[6]
+2025-07-29 20:48:31.791 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:54:13.233 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:54:13.253 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 20:57:45.607 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 20:57:45.676 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 21:10:16.886 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 21:10:17.001 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 21:12:46.005 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 21:12:46.025 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 21:13:46.509 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-删除员工信息, ids=[1]
+2025-07-29 21:13:46.587 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:32:39.307 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:32:39.307 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:32:44.524 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:32:44.539 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:33:10.559 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:33:10.564 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:33:14.250 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:33:14.254 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:33:16.916 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:33:16.922 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 22:33:21.219 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 22:33:21.222 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:12:14.329 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:12:14.345 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:13:45.376 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:13:45.378 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:14:43.242 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:14:43.245 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:15:01.794 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:15:01.806 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:15:18.976 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:15:18.980 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:15:24.309 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-删除员工信息, ids=[3, 5]
+2025-07-29 23:15:24.348 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:15:45.194 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-删除员工信息, ids=[8]
+2025-07-29 23:15:45.217 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:15:57.944 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-删除员工信息, ids=[12, 13, 14, 15, 16, 17]
+2025-07-29 23:15:58.002 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:18:04.814 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:18:04.849 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:18:08.110 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:18:08.120 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:18:19.712 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-删除员工信息, ids=[2]
+2025-07-29 23:18:19.750 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:19:01.915 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚闭楚楚闭楚楚, password=null, name=闭楚楚6号, gender=2, phone=18378587196, job=1, salary=999999, image=, entryDate=2025-07-08, deptId=13, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-01, end=2025-08-19, company=多发点, job=OMG)])
+2025-07-29 23:19:02.219 [http-nio-8080-exec-3] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '18378587196' for key 'emp.phone'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '18378587196' for key 'emp.phone'
+; Duplicate entry '18378587196' for key 'emp.phone'
+2025-07-29 23:19:17.984 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=闭楚楚闭楚楚闭楚楚闭楚楚, password=null, name=闭楚楚6号, gender=2, phone=12340987654, job=1, salary=999999, image=, entryDate=2025-07-08, deptId=13, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-01, end=2025-08-19, company=多发点, job=OMG)])
+2025-07-29 23:28:16.548 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:28:17.100 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:28:17.109 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:29:15.520 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-29 23:29:15.554 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-29 23:36:42.647 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s432ms).
+2025-07-29 23:55:59.430 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m16s787ms).

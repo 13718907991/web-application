@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="local.example.mapper.StudentMapper">
+
+    <select id="searchStudentByConditions" resultType="local.example.pojo.Student">
+        select student.id, student.name, no, gender, phone, degree, id_card, is_college, address, graduation_date,
+        violation_count, violation_score, clazz.id as clazz_id, student.create_time, student.update_time, clazz.name as clazz_name
+        from student
+        left join clazz on student.clazz_id = clazz.id
+        <where>
+            <if test="name != null and name != ''">
+                and student.name like concat('%', #{name}, '%')
+            </if>
+            <if test="degree != null">
+                and student.degree = #{degree}
+            </if>
+            <if test="clazzId != null">
+                and student.clazz_id = #{clazzId}
+            </if>
+        </where>
+        limit #{offset}, #{pageSize}
+    </select>
+</mapper>

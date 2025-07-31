@@ -1,0 +1,331 @@
+2025-07-30 00:23:35.434 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m36s4ms).
+2025-07-30 00:36:45.028 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m9s595ms).
+2025-07-30 00:47:31.582 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m46s553ms).
+2025-07-30 01:10:10.685 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m39s104ms).
+2025-07-30 01:30:32.326 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m21s640ms).
+2025-07-30 01:58:29.472 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m57s146ms).
+2025-07-30 02:11:13.639 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m44s167ms).
+2025-07-30 02:22:00.915 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m47s276ms).
+2025-07-30 02:32:07.446 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m6s532ms).
+2025-07-30 02:54:19.903 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m12s456ms).
+2025-07-30 03:15:11.896 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m51s993ms).
+2025-07-30 03:25:52.876 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m40s979ms).
+2025-07-30 03:37:15.024 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m52s130ms).
+2025-07-30 03:51:59.283 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m44s259ms).
+2025-07-30 04:28:00.843 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m1s560ms).
+2025-07-30 05:05:36.293 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m35s449ms).
+2025-07-30 05:23:00.052 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m23s759ms).
+2025-07-30 06:08:39.471 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m39s420ms).
+2025-07-30 06:34:22.383 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m42s911ms).
+2025-07-30 07:23:27.376 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m4s993ms).
+2025-07-30 07:36:27.709 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m333ms).
+2025-07-30 08:09:09.976 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m42s267ms).
+2025-07-30 08:17:06.133 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m56s157ms).
+2025-07-30 09:09:36.308 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s747ms), soft-evicting connections from pool.
+2025-07-30 09:24:36.187 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s695ms), soft-evicting connections from pool.
+2025-07-30 10:09:36.357 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s836ms), soft-evicting connections from pool.
+2025-07-30 10:14:01.667 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:14:03.705 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:14:03.719 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:21:34.854 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:21:34.869 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:21:37.809 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:21:38.564 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:21:38.565 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:22:23.978 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:22:23.981 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:22:43.011 [http-nio-8080-exec-2] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "ooioh": not a valid `java.lang.Integer` value
+2025-07-30 10:23:07.975 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:23:07.977 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:23:24.462 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=dfa, password=null, name=dfa, gender=1, phone=11111111111, job=1, salary=88889, image=, entryDate=2025-07-02, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-30 10:23:24.533 [http-nio-8080-exec-8] ERROR local.example.exception.GlobalExceptionHandler-全局异常捕获：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '11111111111' for key 'emp.phone'
+### The error may exist in file [/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes/local/example/mapper/EmpMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time,         update_time)         value (?, ?, ?, ?, ?, ?, ?, ?, ?,         ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '11111111111' for key 'emp.phone'
+; Duplicate entry '11111111111' for key 'emp.phone'
+2025-07-30 10:23:41.422 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=dfa, password=null, name=dfa, gender=1, phone=19191919191, job=1, salary=88889, image=, entryDate=2025-07-02, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-07-30 10:24:36.269 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s822ms), soft-evicting connections from pool.
+2025-07-30 10:25:36.213 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:25:36.231 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:26:55.022 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:26:55.656 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:26:55.658 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:28:19.806 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-30 10:28:21.858 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-30 10:28:21.918 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-30 10:28:21.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-30 10:28:44.217 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 7542 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-30 10:28:44.219 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:28:44.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-30 10:28:44.665 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:28:44.665 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-30 10:28:44.665 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-30 10:28:44.681 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-30 10:28:44.682 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 448 ms
+2025-07-30 10:28:44.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:28:44.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-30 10:28:45.002 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 0.922 seconds (process running for 2.34)
+2025-07-30 10:28:56.497 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-30 10:28:56.498 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-30 10:28:56.499 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-30 10:28:56.514 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:28:56.521 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:28:56.525 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-30 10:28:56.704 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29696e5d
+2025-07-30 10:28:56.704 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-30 10:31:53.482 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-30 10:31:55.505 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-30 10:31:55.519 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-30 10:31:55.531 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-30 10:31:57.719 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 7593 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-30 10:31:57.721 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:31:58.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-30 10:31:58.363 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:31:58.364 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-30 10:31:58.364 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-30 10:31:58.385 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-30 10:31:58.385 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 626 ms
+2025-07-30 10:31:58.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:31:58.773 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-30 10:31:58.779 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.234 seconds (process running for 1.621)
+2025-07-30 10:32:04.406 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-30 10:32:04.407 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-30 10:32:04.408 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-30 10:32:04.417 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:04.417 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:05.516 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:08.975 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:08.975 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:15.351 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:32:15.351 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:36:51.135 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 10:37:04.893 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-30 10:37:05.107 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e080535
+2025-07-30 10:37:05.108 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-30 10:37:11.289 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:11.290 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:37:11.972 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:11.975 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:37:11.979 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:11.991 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:37:19.615 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:19.623 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:37:28.664 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:28.666 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:37:29.489 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:29.491 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:37:29.623 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:29.625 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:37:53.023 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:37:53.026 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:10.549 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:10.549 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:10.557 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:10.560 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:14.110 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:14.110 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:14.112 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:14.122 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:22.641 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:22.641 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:22.642 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:22.644 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:31.031 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:31.031 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:31.032 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:31.034 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:36.757 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:36.757 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:36.758 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:36.760 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:42.170 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:42.170 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:42.171 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:42.173 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:38:47.893 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:47.893 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:38:47.900 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:38:47.901 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:39:06.074 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:39:06.077 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:39:06.078 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:39:06.083 [http-nio-8080-exec-4] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:39:35.082 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s860ms), soft-evicting connections from pool.
+2025-07-30 10:41:05.085 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:41:05.085 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:41:05.088 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 10:41:05.091 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 10:41:15.986 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 10:41:15.997 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 11:21:13.658 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:13.658 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:13.693 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 11:21:13.706 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 11:21:18.440 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:18.440 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:18.441 [http-nio-8080-exec-10] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 11:21:18.443 [http-nio-8080-exec-1] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 11:21:54.409 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:54.410 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:21:54.413 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 11:21:54.418 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 11:49:06.162 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:49:06.162 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 11:49:06.168 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 11:49:06.175 [http-nio-8080-exec-6] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 11:49:45.251 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 13:56:07.800 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s365ms), soft-evicting connections from pool.
+2025-07-30 14:06:18.234 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 14:06:28.900 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 14:07:04.509 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:07:04.521 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:07:09.740 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:07:09.741 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:08:47.724 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:08:47.725 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:09:02.474 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:09:02.475 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:09:02.475 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:09:02.484 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 14:09:20.696 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:09:20.722 [http-nio-8080-exec-6] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@42efdd4c
+2025-07-30 14:10:36.812 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:10:36.830 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-添加员工信息, emp=Emp(id=null, username=白羽, password=null, name=白羽, gender=1, phone=19483728493, job=6, salary=9999999, image=https://web-management-system-recources.oss-cn-beijing.aliyuncs.com/2025/07/268aca3d-4687-4cea-893b-28debc7adf83.png, entryDate=2025-07-01, deptId=13, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-07-22, end=2025-08-08, company=OMG, job=OMG), EmpExpr(id=null, empId=null, begin=2025-07-31, end=2025-08-21, company=OMG, job=OMG)])
+2025-07-30 14:11:06.540 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:11:06.551 [http-nio-8080-exec-9] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd1f6a3
+2025-07-30 14:11:38.734 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:11:38.734 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:11:38.736 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:11:38.741 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 14:11:50.475 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:11:50.478 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=4, pageSize=10
+2025-07-30 14:12:00.527 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:00.528 [http-nio-8080-exec-3] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@794c9d87
+2025-07-30 14:12:10.070 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:10.072 [http-nio-8080-exec-4] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2e00f834
+2025-07-30 14:12:13.986 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:13.986 [http-nio-8080-exec-8] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7509d399
+2025-07-30 14:12:16.118 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:16.119 [http-nio-8080-exec-5] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2b6e1caf
+2025-07-30 14:12:51.222 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:51.224 [http-nio-8080-exec-6] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2eab6f7d
+2025-07-30 14:12:58.730 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:12:58.730 [http-nio-8080-exec-7] INFO  local.example.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@deef868
+2025-07-30 14:14:54.570 [http-nio-8080-exec-4] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.570 [http-nio-8080-exec-6] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.570 [http-nio-8080-exec-8] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.570 [http-nio-8080-exec-7] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.570 [http-nio-8080-exec-9] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.571 [http-nio-8080-exec-5] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:54.571 [http-nio-8080-exec-3] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.995 [http-nio-8080-exec-4] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.996 [http-nio-8080-exec-9] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.997 [http-nio-8080-exec-5] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.995 [http-nio-8080-exec-8] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.996 [http-nio-8080-exec-3] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.997 [http-nio-8080-exec-7] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:14:56.997 [http-nio-8080-exec-6] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:25.441 [http-nio-8080-exec-9] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:25.783 [http-nio-8080-exec-3] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:26.763 [http-nio-8080-exec-4] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:26.765 [http-nio-8080-exec-6] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:26.872 [http-nio-8080-exec-8] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:26.889 [http-nio-8080-exec-5] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:21:26.958 [http-nio-8080-exec-7] WARN  com.aliyun.oss-[Client]Unable to execute HTTP request: Broken pipe
+[ErrorCode]: SocketException
+[RequestId]: Unknown
+2025-07-30 14:38:56.007 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-30 14:38:58.047 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-30 14:38:58.066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-30 14:38:58.073 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-07-30 14:58:16.987 [main] INFO  local.example.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.11 with PID 16279 (/Users/carter/Desktop/Javaweb/Javaweb_review/web-application/tlias-web-management/target/classes started by carter in /Users/carter/Desktop/Javaweb/Javaweb_review/web-application)
+2025-07-30 14:58:16.989 [main] INFO  local.example.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-30 14:58:17.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-30 14:58:17.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-30 14:58:17.460 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-30 14:58:17.460 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-30 14:58:17.479 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-30 14:58:17.479 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 470 ms
+2025-07-30 14:58:17.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-30 14:58:17.815 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-30 14:58:17.819 [main] INFO  local.example.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.005 seconds (process running for 1.466)
+2025-07-30 14:58:23.536 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-30 14:58:23.536 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-30 14:58:23.537 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-30 14:58:23.545 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-获取到jwt令牌为空, 返回错误结果
+2025-07-30 14:58:30.548 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-07-30 14:58:30.723 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71c0ee97
+2025-07-30 14:58:30.724 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-07-30 14:58:44.102 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:58:44.102 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:58:44.104 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:58:44.112 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 14:58:44.543 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:58:44.543 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:58:45.111 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:58:45.111 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:58:45.111 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:58:45.112 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 14:59:16.233 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:59:16.238 [http-nio-8080-exec-8] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=3, pageSize=10
+2025-07-30 14:59:17.412 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:59:17.413 [http-nio-8080-exec-9] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=4, pageSize=10
+2025-07-30 14:59:37.693 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:59:37.693 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-30 14:59:37.695 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-30 14:59:37.698 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-30 15:13:04.043 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m33s185ms).
+2025-07-30 15:24:06.318 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m54s797ms).
+2025-07-30 15:34:19.107 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m12s846ms).
+2025-07-30 15:44:38.848 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s689ms).
+2025-07-30 16:06:53.288 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m44s366ms).
+2025-07-30 17:00:14.452 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m21s164ms).
+2025-07-30 17:03:41.900 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s447ms).
+2025-07-30 17:36:01.438 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m19s539ms).
+2025-07-30 17:51:57.272 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s833ms).
+2025-07-30 17:58:50.174 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m52s902ms).
+2025-07-30 21:12:21.486 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s782ms), soft-evicting connections from pool.
+2025-07-30 23:59:23.314 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s832ms), soft-evicting connections from pool.

@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: tlias-web-management
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias_system
+    username: root
+    password: 22101020304
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+mybatis:
+  mapper-locations: classpath:/local/example/mapper/*.xml
+  type-aliases-package: local.example.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: web-management-system-recources
+    region: cn-beijing

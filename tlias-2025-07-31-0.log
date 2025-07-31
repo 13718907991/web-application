@@ -1,0 +1,57 @@
+2025-07-31 00:14:23.295 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s794ms), soft-evicting connections from pool.
+2025-07-31 08:25:28.635 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s830ms), soft-evicting connections from pool.
+2025-07-31 08:44:05.014 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:05.015 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:05.787 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:05.787 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:05.787 [http-nio-8080-exec-5] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:05.794 [http-nio-8080-exec-3] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-31 08:44:06.696 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:06.696 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:10.800 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:10.813 [http-nio-8080-exec-7] INFO  local.example.controller.DeptController-根据id删除部门, id: 14
+2025-07-31 08:44:10.847 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:10.847 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:18.187 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:18.201 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-新增部门, dept: Dept(id=null, name=Python, createTime=null, updateTime=null)
+2025-07-31 08:44:18.250 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:18.250 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:19.581 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:19.581 [http-nio-8080-exec-2] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:19.583 [http-nio-8080-exec-10] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:19.585 [http-nio-8080-exec-10] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-31 08:44:20.384 [http-nio-8080-exec-4] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:20.384 [http-nio-8080-exec-4] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:21.540 [http-nio-8080-exec-5] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:21.540 [http-nio-8080-exec-3] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:21.540 [http-nio-8080-exec-3] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:21.541 [http-nio-8080-exec-5] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-31 08:44:25.334 [http-nio-8080-exec-6] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:25.334 [http-nio-8080-exec-6] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:26.473 [http-nio-8080-exec-8] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:26.473 [http-nio-8080-exec-7] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 08:44:26.474 [http-nio-8080-exec-8] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 08:44:26.474 [http-nio-8080-exec-7] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-31 09:11:30.551 [http-nio-8080-exec-9] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 09:11:30.554 [http-nio-8080-exec-9] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 09:11:31.393 [http-nio-8080-exec-1] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 09:11:31.393 [http-nio-8080-exec-2] INFO  local.example.intercepter.TokenInterceptor-令牌合法, 放行
+2025-07-31 09:11:31.403 [http-nio-8080-exec-1] INFO  local.example.controller.DeptController-查询部门列表
+2025-07-31 09:11:31.403 [http-nio-8080-exec-2] INFO  local.example.controller.EmpController-分页条件查询员工信息, page=1, pageSize=10
+2025-07-31 10:22:48.130 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m18s157ms).
+2025-07-31 10:25:11.785 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s661ms).
+2025-07-31 10:26:40.470 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s684ms).
+2025-07-31 10:32:41.173 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m704ms).
+2025-07-31 10:41:52.124 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m26s465ms).
+2025-07-31 10:43:42.399 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s275ms).
+2025-07-31 10:46:21.278 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s879ms).
+2025-07-31 10:51:37.552 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m16s274ms).
+2025-07-31 11:12:48.269 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m10s717ms).
+2025-07-31 11:14:47.743 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s474ms).
+2025-07-31 11:35:38.111 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m50s365ms).
+2025-07-31 11:51:16.684 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m38s575ms).
+2025-07-31 12:03:01.238 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m44s555ms).
+2025-07-31 12:45:31.913 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-31 12:45:33.964 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-31 12:45:33.977 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-07-31 12:45:33.982 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
